@@ -32,7 +32,7 @@ fetch(repoURL).then((response) => {
 
     let repo1 = document.getElementById('repo1')
     repo1.innerText = parsedJsonResponse[1]["full_name"]
-    repoLinx1.src = parsedJsonResponse[0]['html_url']
+    repoLinx1.src = parsedJsonResponse[1]['html_url']
 
     // repo1.appendChild(repo);
     // repoLinx1.appendChild(repo);
